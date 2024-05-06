@@ -15,6 +15,6 @@ manifest:
     - name: le-capybara-zmk-module
       remote: petejohanson
       clone-depth: 1
-      revision: zephyr-3.5-update
+      revision: main
   self:
     path: config
