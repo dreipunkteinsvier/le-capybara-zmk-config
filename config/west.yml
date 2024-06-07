@@ -5,7 +5,7 @@ manifest:
     - name: petejohanson
       url-base: https://github.com/petejohanson
     - name: dreipunkteinsvier
-      url-base: https://github.dev/dreipunkteinsvier
+      url-base: https://github.com/dreipunkteinsvier
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
