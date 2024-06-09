@@ -38,6 +38,10 @@
 //           --------------------       --------------------
 
 / {
+	chosen {
+        zmk,matrix_transform = &transform_encoder;
+    };
+
 	combos {
 		compatible = "zmk,combos";
 		combo_esc {
@@ -148,6 +152,7 @@
 			&hl LGUI A	&hl LALT S	&hl LCTRL D	&hs LSHFT F	&hl RALT G		&hr RALT H	&hs RSHFT J	&hr RCTRL K	&hr LALT L	&hr LGUI SEMI
 			&kp Z		&kp X		&kp C		&kp V		&kp B	    	&kp N		&kp M		&kp COMMA	&kp DOT		&kp FSLH
 												&lt SET TAB	&lt NAV RET		&lt NUM SPACE	&lt FUN BSPC
+															&kp C_MUTE
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
@@ -159,6 +164,7 @@
 			&hl LGUI A	&hl LALT R	&hl LCTRL S	&hs LSHFT T	&hl RALT G		&hr RALT M	&hs RSHFT N	&hr RCTRL E	&hr LALT I	&hr LGUI O
 			&kp Z		&kp X		&kp C		&kp D		&kp V			&kp K		&kp H		&kp COMMA	&kp DOT		&kp FSLH
 												&lt SET TAB	&lt NAV RET		&lt NUM SPACE	&lt FUN BSPC
+															&kp C_MUTE
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
@@ -170,6 +176,7 @@
 			&kp EQUAL	&kp N4		&kp N5		&kp N6		&kp SQT			&none		&kp RSHFT	&kp RCTRL	&kp LALT	&kp LGUI
 			&kp GRAVE	&kp N1		&kp N2		&kp N3		&kp BSLH		&none		&none		&none		&none		&none
 												&none		&none			&none		&kp DEL
+															&kp C_MUTE
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
@@ -181,6 +188,7 @@
 			&kp F11		&kp F4		&kp F5		&kp F6		&kp CAPS		&none		&kp RSHFT	&kp RCTRL	&kp LALT	&kp LGUI
 			&kp F10		&kp F1		&kp F2		&kp F3		&kp INS			&none		&none		&none		&none		&none
 												&none		&none			&none		&kp DEL
+															&kp C_MUTE
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
@@ -192,6 +200,7 @@
 			&kp LGUI	&kp LALT	&kp LCTRL	&kp LSHFT	&kp LPAR		&kp RPAR	&kp LEFT		&kp DOWN		&kp UP		&kp RIGHT
 			&kp F10		&kp F1		&kp F2		&kp F3		&kp LBKT		&kp RBKT	&kp HOME		&kp PG_DN		&kp PG_UP	&kp END
 												&none		&none			&none		&kp DEL
+															&kp C_MUTE
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
@@ -203,6 +212,7 @@
 			&none		&none		&none		&bootloader	&none			&bt BT_SEL 0	&bt BT_SEL 1	&bt BT_SEL 2	&bt BT_SEL 3	&bt BT_SEL 4
 			&none		&none		&none		&none		&none			&to 0			&to 1			&bt BT_PRV		&bt BT_NXT		&bt BT_CLR
 												&none		&none			&none			&kp DEL
+															&kp C_MUTE
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
