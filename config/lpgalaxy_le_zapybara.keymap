@@ -39,7 +39,7 @@
 
 / {
 	chosen {
-        zmk,matrix_transform = &transform_encoder;
+        zmk,matrix_transform = &encoder_transform;
     };
 
 	combos {
