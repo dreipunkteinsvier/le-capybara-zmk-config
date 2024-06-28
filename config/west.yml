@@ -17,6 +17,6 @@ manifest:
     - name: le-capybara-zmk-module
       remote: dreipunkteinsvier
       clone-depth: 1
-      revision: pi
+      revision: zapy-encoder-support
   self:
     path: config
