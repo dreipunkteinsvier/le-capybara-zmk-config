@@ -148,7 +148,7 @@
 		default_layer {
 			label = "Qwerty";
 			bindings = <
-			&kp Q		&kp W		&kp E		&kp R		&kp T			&kp Y		&kp U		&kp I		&hs LA(LGUI) O		&hs RC(LA(LGUI)) P
+			&kp Q		&kp W		&kp E		&kp R		&kp T			&kp Y		&kp U		&kp I		&hs RC(LALT) O		&hs RC(LA(LGUI)) P
 			&hl LGUI A	&hl LALT S	&hl LCTRL D	&hs LSHFT F	&hl RALT G		&hr RALT H	&hs RSHFT J	&hr RCTRL K	&hr LALT L	&hr LGUI SEMI
 			&kp Z		&kp X		&kp C		&kp V		&kp B	    	&kp N		&kp M		&kp COMMA	&kp DOT		&kp FSLH
 												&lt SET TAB	&lt NAV RET		&lt NUM SPACE	&lt FUN BSPC
@@ -160,7 +160,7 @@
 		colemak_layer {
 			label = "Colemak";
 			bindings = <
-			&kp Q		&kp W		&kp F		&kp P		&kp B			&kp J		&kp L		&kp U		&hs LA(LGUI) Y		&hs RC(LA(LGUI)) SEMI
+			&kp Q		&kp W		&kp F		&kp P		&kp B			&kp J		&kp L		&kp U		&hs RC(LALT) Y		&hs RC(LA(LGUI)) SEMI
 			&hl LGUI A	&hl LALT R	&hl LCTRL S	&hs LSHFT T	&hl RALT G		&hr RALT M	&hs RSHFT N	&hr RCTRL E	&hr LALT I	&hr LGUI O
 			&kp Z		&kp X		&kp C		&kp D		&kp V			&kp K		&kp H		&kp COMMA	&kp DOT		&kp FSLH
 												&lt SET TAB	&lt NAV RET		&lt NUM SPACE	&lt FUN BSPC
