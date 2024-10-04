@@ -15,8 +15,9 @@ manifest:
       clone-depth: 1
       import: app/west.yml
     - name: le-capybara-zmk-module
-      remote: dreipunkteinsvier
+      remote: petejohanson
       clone-depth: 1
-      revision: zapy-encoder-support
+      revision: main
+      # revision: zapy-encoder-support
   self:
     path: config
